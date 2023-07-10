@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- square_button.xml -->
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/square_button_background_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/square_button_background_normal" />
+</selector>-->
+    <!-- square_button.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/square_button_background_normal" android:left="16dp" android:top="8dp" android:right="16dp" android:bottom="8dp"/>
+</layer-list>
